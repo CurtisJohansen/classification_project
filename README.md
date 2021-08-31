@@ -56,7 +56,9 @@ total_charges | The total amount a customer has paid for Telco services | object
 internet_service_type | Type of internet service a customer has | object
 contract_type | The type of contract a customer has | object
 payment_type | How a customer pays their bill | object
-churn | Indicates whether a customer has terminated service | object |
+| churn | Indicates whether a customer has terminated service | object |
+| is_female | to replace gender Male or Female | 1 is True, 0 is False |
+| is_auto_pay | identify if customer pays automatically or manually | 1 is True, 0 is False |
 
 <h2>Hypotheses</h2>
 
@@ -67,12 +69,13 @@ Alpha
 
 - Ho: There is no association between contract type and customer churn
 - Ha: There is a association between contract type and customer churn
+- Result - We rejected the null hypothesis, indicating there is some relationship between contract type and churn.
 
 <h2>Hypothesis 2</h2>
 
 - Ho: There is no association between automatic payment type and customer churn.
 - Ha: There is a association between automatic payment type and customer churn.
-
+- Result - We rejected the null hypothesis, indicating there is some relationship between automatic payment type and churn.
 
 <h2>Executive Summary - Conclusions and Next Steps</h2>
 
@@ -135,7 +138,6 @@ Recommendations:
 - Python
 - SQL
 - classification models
-Libraries:
 - pandas
 - numpy
 - matplotlib/seaborn
