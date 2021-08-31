@@ -56,8 +56,7 @@ total_charges | The total amount a customer has paid for Telco services | object
 internet_service_type | Type of internet service a customer has | object
 contract_type | The type of contract a customer has | object
 payment_type | How a customer pays their bill | object
-Target | Definition | Data Type
-churn | Indicates whether a customer has terminated service
+churn | Indicates whether a customer has terminated service | object |
 
 <h2>Hypotheses</h2>
 
@@ -65,10 +64,12 @@ Alpha
 - a=.05
 
 <h2>Hypothesis 1</h2>
+
 - Ho: There is no association between contract type and customer churn
 - Ha: There is a association between contract type and customer churn
 
 <h2>Hypothesis 2</h2>
+
 - Ho: There is no association between automatic payment type and customer churn.
 - Ha: There is a association between automatic payment type and customer churn.
 
@@ -131,8 +132,16 @@ Recommendations:
 
 <h2>Reproduce My Project</h2>
 
+- Python
+- SQL
+- classification models
+Libraries:
+- pandas
+- numpy
+- matplotlib/seaborn
+- sklearn
+- stats
 - You will need your own env file with database credentials along with all the necessary files listed below to run my final project notebook.
-
 - Read this README.md
 - Download the aquire.py, prepare.py, and final_report.ipynb files into your working directory
 - Add your own env file to your directory. (user, password, host)
