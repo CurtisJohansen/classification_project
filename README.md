@@ -57,7 +57,7 @@ internet_service_type | Type of internet service a customer has | object
 contract_type | The type of contract a customer has | object
 payment_type | How a customer pays their bill | object
 | churn | Indicates whether a customer has terminated service | object |
-| is_female | To replace gender Male or Female | 1 is True, 0 is False |
+| is_female | To replace gender Male or Female | Female = 1, Male = 0 |
 | is_auto_pay | Identify if customer pays automatically or manually | 1 is True, 0 is False |
 
 <h2>Hypotheses</h2>
