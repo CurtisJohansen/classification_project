@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 # prepare telco dataset 
 
 def clean_telco_churn(df):
+    
 
     #making dummies for columns I found appropriate to do so. I just went down the list. 
 
@@ -60,7 +61,7 @@ def clean_telco_churn(df):
     # replaced the blanks with a 0 (float)
 
     df.total_charges = df.total_charges.str.replace(' ', '0').astype(float)
-    
+    df.total_charges.dtype
 
     # dropping columns not needed 
 
@@ -81,6 +82,7 @@ def clean_telco_churn(df):
                                    'payment_type_Electronic check': 'electronic_check',
                                    'payment_type_Mailed check': 'mailed_check'})
     df = pd.concat([df, dummy_df], axis =1)
+    #df = df.drop(columns=['internet_service_type','contract_type','payment_type'])
 
     return df 
     
@@ -108,7 +110,4 @@ def prep_telco_churn(df):
     train, validate, test = telco_churn_split(df)
     return train, validate, test
     
-#def prep_telco_churn(get_telco_project):
- #   df = clean_telco_churn(df)
- #   train, validate, test = telco_churn_split(df)
-  #  return train, validate, test
+
