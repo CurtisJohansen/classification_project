@@ -85,10 +85,11 @@ Findings:
 - Classification model predicts whether a customer will churn with 78% accuracy
 
 Recommendations:
-- Offer discounts to enroll in automatic payment and in a yearly contract
-- Work with marking department to come up with a new discount campain
-
-
+- Offer incentivise to enroll in automatic payment
+- Offer incentivise to enroll in a yearly contract
+- Work with marketing to test offers to increase retention, e.g. Special promo during customer cancelation.
+- A/B channel testing
+- Work with UX to determine if the customer onboarding process simplifies the automatic payment types.
 
 <h1>Plan -> Acquire -> Prepare -> Explore -> Model -> Deliver</h1>
 <h2>Plan</h2>
