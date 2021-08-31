@@ -91,7 +91,8 @@ Recommendations:
 - A/B channel testing
 - Work with UX to determine if the customer onboarding process simplifies the automatic payment types.
 
-<h1>Plan -> Acquire -> Prepare -> Explore -> Model -> Deliver</h1>
+<h1>Pipeline Stages Breakdown</h1>
+<h2>Plan -> Acquire -> Prepare -> Explore -> Model -> Deliver</h2>
 <h2>Plan</h2>
 
 - Create README.md with data dictionary, project and business goals, come up with initial hypotheses.
