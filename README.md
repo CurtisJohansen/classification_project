@@ -1,4 +1,4 @@
-# Classification Project
+# Classification Project - Telco Churn
 
 
 <h2>Project Objectives:</h2>
