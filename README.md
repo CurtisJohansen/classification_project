@@ -80,7 +80,7 @@ Alpha
 <h2>Executive Summary - Conclusions and Next Steps</h2>
 
 Findings:
-- Drivers of churn were contract type, payment type and total charges
+- Three drivers of churn that stood out were contract type, payment type and total charges
 - Analysis showed that churn rate goes down as tenure increases
 - Classification model predicts whether a customer will churn with 78% accuracy
 
